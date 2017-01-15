@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import com.example.streams.ex1.Book;
+import com.example.models.Book;
 
 public class Main {
 

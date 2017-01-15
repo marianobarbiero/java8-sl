@@ -1,8 +1,10 @@
-package com.example.streams.ex1;
+package com.example.streams.listfilter;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import com.example.models.Book;
 
 /**
  * streams and lambdas

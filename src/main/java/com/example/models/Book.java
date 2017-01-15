@@ -1,4 +1,4 @@
-package com.example.streams.ex1;
+package com.example.models;
 
 public class Book {
 

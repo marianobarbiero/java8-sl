@@ -35,10 +35,11 @@ public class Main {
 				.filter(x -> x.getStock() > 3)
 				.collect(Collectors.toList());
 		
-		booksFilter.stream().forEach(x -> {
-			System.out.println(x.getName()); // El Silmarillion
-			System.out.println(x.getStock()); // 5
-		});
+		booksFilter
+			.forEach(x -> System.out.format("Name: %s \nStock: %s", x.getName(), x.getStock()));
+		
+		// Name: El Silmarillión 
+		// Stock: 5
 		
 	}
 }

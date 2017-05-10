@@ -1,4 +1,4 @@
-### java8-sl - streams and lambda examples.
+# java8-sl - streams and lambda examples.
 
 ## Folders
 
